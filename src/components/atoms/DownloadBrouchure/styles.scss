@@ -1,0 +1,58 @@
+@import url("https://use.typekit.net/epn6luu.css");
+
+.dwnld-brchr-img {
+  width: 100%;
+  height: 450px;
+  background-image: url(../../../static/Images/brocher.jpg);
+  background-size: 100% 450px;
+  border-radius: 10px;
+}
+.brouchure-card-content-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -35%);
+  display: flex;
+  flex-direction: column;
+}
+
+.blur-background {
+  background-color: #ddffbc;
+  width: 100%;
+  height: 450px;
+  position: absolute;
+  opacity: 0.7;
+}
+
+.download-brchr-btn {
+  position: absolute !important;
+  left: 50% !important;
+  top: 100% !important;
+  transform: translate(-50%, 100%) !important;
+  width: 110px !important;
+  font-size: 12px !important;
+  display: flex !important;
+  justify-content: center !important;
+  background-color: #fff !important;
+  color: #344767 !important;
+  box-shadow: rgb(255 255 255 / 15%) 0rem 0.1875rem 0.1875rem 0rem,
+    rgb(255 255 255 / 20%) 0rem 0.1875rem 0.0625rem -0.125rem,
+    rgb(255 255 255 / 15%) 0rem 0.0625rem 0.3125rem 0rem !important;
+  span {
+    margin: 0px;
+  }
+}
+.download-brchr-btn:hover {
+  background-color: rgb(255, 255, 255) !important;
+  box-shadow: rgba(255, 255, 255, 0.726) 0rem 0.875rem 1.625rem -0.75rem,
+    rgba(255, 255, 255, 0.509) 0rem 0.25rem 1.4375rem 0rem,
+    rgba(255, 255, 255, 0.384) 0rem 0.5rem 0.625rem -0.3125rem !important;
+}
+
+.book-icon {
+  position: absolute;
+  color: #fff;
+  left: 50%;
+  top: -70%;
+  transform: translate(-50%, -100%) scale(1.5);
+}

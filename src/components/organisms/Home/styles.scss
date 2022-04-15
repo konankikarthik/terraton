@@ -1,0 +1,15 @@
+@import url("https://use.typekit.net/epn6luu.css");
+.banner-container {
+  width: 100%;
+  height: 70vh;
+  .banner-image {
+    background: url(../../../static/Images/banner.jpg) center no-repeat;
+    width: 100%;
+    height: 70vh;
+    position: absolute;
+    top: 0px;
+    z-index: -1000;
+    background-position-y: top;
+    background-size: 100%;
+  }
+}
